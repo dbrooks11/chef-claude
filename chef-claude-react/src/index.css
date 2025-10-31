@@ -92,6 +92,12 @@ main{
     box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.245), 0px 1px 
 }
 
+#ing-amount{
+    padding-top: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
 .ingredients-container{
     margin: 3.5rem 0rem 0rem 0rem;
     font-size: 1em;
