@@ -54,11 +54,11 @@ export default function Main(){
                 <input aria-label = "Add Ingredient" placeholder = "e.g. Oregano" type="text" name = "ingredient"></input>
                 <button type="submit">+ Add Ingredient</button>
             </form>
-            <button 
+            {ingredientsLength > 0 ? <button 
             id = "clear-btn"
             onClick={clearButton}
             
-            >Clear</button>
+            >Clear</button> : null}
             {addMoreText()}
             {ingredients.length > 0 ? 
             <Ingredients
