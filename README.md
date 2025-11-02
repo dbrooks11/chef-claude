@@ -26,7 +26,7 @@ Chef Claude allows users to input available ingredients and generates tailored r
 
 1. Clone the repository
 ```
-git clone https://github.com/yourusername/chef-claude.git
+git clone https://github.com/dbrooks11/chef-claude.git
 ```
 
 2. Navigate to the project directory
